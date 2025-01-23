@@ -37,7 +37,7 @@ make lint
 Start by creating a new branch for your changes:
 
 ```bash
-cd $GOPATH/src/go.uber.org/zap
+cd $GOPATH/src/github.com/go-uber/zap
 git checkout master
 git fetch upstream
 git rebase upstream/master

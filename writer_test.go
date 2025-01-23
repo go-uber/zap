@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/go-uber/zap/zapcore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/multierr"
-	"go.uber.org/zap/zapcore"
 )
 
 func TestOpenNoPaths(t *testing.T) {

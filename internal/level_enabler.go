@@ -22,7 +22,7 @@
 // that are not part of Zap's public API.
 package internal
 
-import "go.uber.org/zap/zapcore"
+import "github.com/go-uber/zap/zapcore"
 
 // LeveledEnabler is an interface satisfied by LevelEnablers that are able to
 // report their own level.

@@ -22,4 +22,4 @@
 // the supplied zapcore.Core.
 //
 // Use of this package requires at least Go 1.21.
-package zapslog // import "go.uber.org/zap/exp/zapslog"
+package zapslog // import "github.com/go-uber/zap/exp/zapslog"

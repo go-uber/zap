@@ -19,4 +19,4 @@
 // THE SOFTWARE.
 
 // Package zaptest provides a variety of helpers for testing log output.
-package zaptest // import "go.uber.org/zap/zaptest"
+package zaptest // import "github.com/go-uber/zap/zaptest"

@@ -23,12 +23,12 @@ package grpc
 import (
 	"testing"
 
+	"github.com/go-uber/zap"
+	"github.com/go-uber/zap/zapcore"
+	"github.com/go-uber/zap/zapgrpc"
+	"github.com/go-uber/zap/zaptest/observer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zapgrpc"
-	"go.uber.org/zap/zaptest/observer"
 	"google.golang.org/grpc/grpclog"
 )
 

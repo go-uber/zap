@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/go-uber/zap/zapcore"
 
 	"go.uber.org/multierr"
 )

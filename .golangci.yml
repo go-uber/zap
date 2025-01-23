@@ -34,16 +34,16 @@ linters-settings:
     exclude-functions:
       # These methods can not fail.
       # They operate on an in-memory buffer.
-      - (*go.uber.org/zap/buffer.Buffer).Write
-      - (*go.uber.org/zap/buffer.Buffer).WriteByte
-      - (*go.uber.org/zap/buffer.Buffer).WriteString
+      - (*github.com/go-uber/zap/buffer.Buffer).Write
+      - (*github.com/go-uber/zap/buffer.Buffer).WriteByte
+      - (*github.com/go-uber/zap/buffer.Buffer).WriteString
 
-      - (*go.uber.org/zap/zapio.Writer).Close
-      - (*go.uber.org/zap/zapio.Writer).Sync
-      - (*go.uber.org/zap/zapio.Writer).Write
+      - (*github.com/go-uber/zap/zapio.Writer).Close
+      - (*github.com/go-uber/zap/zapio.Writer).Sync
+      - (*github.com/go-uber/zap/zapio.Writer).Write
       # Write to zapio.Writer cannot fail,
       # so io.WriteString on it cannot fail.
-      - io.WriteString(*go.uber.org/zap/zapio.Writer)
+      - io.WriteString(*github.com/go-uber/zap/zapio.Writer)
 
       # Writing a plain string to a fmt.State cannot fail.
       - io.WriteString(fmt.State)

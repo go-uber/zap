@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.uber.org/zap/internal/pool"
+	"github.com/go-uber/zap/internal/pool"
 )
 
 // Encodes the given error into fields of an object. A field with the given

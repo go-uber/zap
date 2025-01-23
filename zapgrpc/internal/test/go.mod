@@ -1,10 +1,10 @@
-module go.uber.org/zap/zapgrpc/internal/test
+module github.com/go-uber/zap/zapgrpc/internal/test
 
 go 1.18
 
 require (
 	github.com/stretchr/testify v1.8.1
-	go.uber.org/zap v1.16.0
+	github.com/go-uber/zap v1.16.0
 	google.golang.org/grpc v1.56.3
 )
 
@@ -18,4 +18,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace go.uber.org/zap => ../../..
+replace github.com/go-uber/zap => ../../..

@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/go-uber/zap/zapcore"
 )
 
 // SamplingConfig sets a sampling strategy for the logger. Sampling caps the

@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/go-uber/zap/zapcore"
+	"github.com/go-uber/zap/zaptest/observer"
 	"github.com/stretchr/testify/assert"
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
 )
 
 type proxyCore struct {

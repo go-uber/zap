@@ -37,7 +37,7 @@ Breaking changes:
 
 ## 0.1.0 - 1 Aug 2023
 
-Initial release of go.uber.org/zap/exp.
+Initial release of github.com/go-uber/zap/exp.
 This submodule contains experimental features for Zap.
 Features incubated here may be promoted to the root Zap module,
 but it's not guaranteed.

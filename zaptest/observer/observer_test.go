@@ -27,11 +27,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/go-uber/zap"
+	"github.com/go-uber/zap/zapcore"
 
 	//revive:disable:dot-imports
-	. "go.uber.org/zap/zaptest/observer"
+	. "github.com/go-uber/zap/zaptest/observer"
 )
 
 func assertEmpty(t testing.TB, logs *ObservedLogs) {

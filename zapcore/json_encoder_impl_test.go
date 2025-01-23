@@ -31,8 +31,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.uber.org/zap/buffer"
-	"go.uber.org/zap/internal/bufferpool"
+	"github.com/go-uber/zap/buffer"
+	"github.com/go-uber/zap/internal/bufferpool"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

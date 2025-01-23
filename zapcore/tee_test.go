@@ -24,10 +24,10 @@ import (
 	"errors"
 	"testing"
 
-	"go.uber.org/zap/internal/ztest"
+	"github.com/go-uber/zap/internal/ztest"
 	//revive:disable:dot-imports
-	. "go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
+	. "github.com/go-uber/zap/zapcore"
+	"github.com/go-uber/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 )

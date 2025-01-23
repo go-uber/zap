@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/go-uber/zap"
+	"github.com/go-uber/zap/zapcore"
+	"github.com/go-uber/zap/zaptest"
 	"github.com/stretchr/testify/assert"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest"
 )
 
 func TestCheckedEntryIllegalReuse(t *testing.T) {
