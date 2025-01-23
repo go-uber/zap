@@ -28,7 +28,7 @@ import (
 	"time"
 )
 
-const _size = 1024 // by default, create 1 KiB buffers
+const _size = 2048 // by default, create 1 KiB buffers
 
 // Buffer is a thin wrapper around a byte slice. It's intended to be pooled, so
 // the only way to construct one is via a Pool.
